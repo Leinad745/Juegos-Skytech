@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  java:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "8080:8080"  # Usa 8081 si el 8080 ya está ocupado en tu host
+    restart: unless-stopped
