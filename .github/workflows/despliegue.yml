@@ -41,6 +41,6 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /home/ubuntu/Skytech-Juegos/
+          cd /home/ubuntu/Skytech-Juegos/Skytech-Juegos/
           sudo docker compose down
           sudo docker compose up -d --build
