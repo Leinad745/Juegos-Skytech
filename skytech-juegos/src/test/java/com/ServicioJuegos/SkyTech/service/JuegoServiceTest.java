@@ -26,10 +26,6 @@ public class JuegoServiceTest {
 
     @Test
     public void testFindAll() {
-        /*Juego juego = new Juego(
-            1, "The Legend of Zelda: Breath of the Wild", "Un juego de aventura en un mundo abierto", 
-            "Aventura", Year.of(2017), "Nintendo EPD", "Nintendo", "E10+", true
-        );*/
 
         Year anioLanzamiento = Year.of(2017);
         //Comportamiento del mock
